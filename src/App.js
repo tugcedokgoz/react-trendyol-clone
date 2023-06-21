@@ -1,34 +1,14 @@
-import Navbar from "./Navbar";
-import Banner from "./Banner";
-import Slider from "./Slider";
-import BannerListItem from "./BannerListItem";
-import ContentList from "./ContentList";
-import WidgetProduct from "./WidgetProduct"
-import WidgetProductList from "./WidgetProductList";
-import SeoContent from "./SeoContent";
-import PopularBrandCategoryContainer from "./PopularBrandCategoryContainer";
-import Footer from "./Footer";
-import MegaMenu from "./MegaMenu"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./Home";
+import About from "./About";
 
-
-//  z-index
-//  -> ! position ->  https://tailwindcss.com/docs/position 
-
-function App() {
+export default function App() {
   return (
-    <div className="container mx-auto px-4">
-      <Navbar />
-      <MegaMenu/>
-      <Banner />
-      <Slider />
-      <BannerListItem />
-      <ContentList />
-      <WidgetProductList/>
-      <SeoContent/>
-      <PopularBrandCategoryContainer/>
-      <Footer/>
-    </div>
+    <BrowserRouter>
+      <Routes>
+          <Route index element={<Home />} />
+          <Route path="/Hesabim/KullaniciBilgileri" element={<About />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;

@@ -42,17 +42,17 @@ export default function MegaMenu() {
         <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
             <div class="flex flex-col">
                 <h3 class="mb-4 text-xl">Saat</h3>
-                <a href="#" class="hover:underline hover:text-orange-400">Elbise</a>
-                <a href="#" class="hover:underline hover:text-orange-400">T-shirt</a>
+                <a href="#" class="hover:underline hover:text-orange-400">Lacoste</a>
+                <a href="#" class="hover:underline hover:text-orange-400">GUESS</a>
                 <a href="#" class="hover:underline hover:text-orange-400">Pantolon</a>
 
             </div>
 
             <div class="flex flex-col">
                 <h3 class="mb-4 text-xl">Kişisel Bakım</h3>
-                <a href="#" class="hover:underline hover:text-orange-400">Sneakers</a>
-                <a href="#" class="hover:underline hover:text-orange-400">Topuklu</a>
-                <a href="#" class="hover:underline hover:text-orange-400">Bot</a>
+                <a href="#" class="hover:underline hover:text-orange-400">Parfüm</a>
+                <a href="#" class="hover:underline hover:text-orange-400">Duş Jeli</a>
+                <a href="#" class="hover:underline hover:text-orange-400">Şampuan</a>
             </div>
 
             <div class="flex flex-col">
@@ -60,7 +60,6 @@ export default function MegaMenu() {
                 <a href="#" class="hover:underline hover:text-orange-400">Pijama</a>
                 <a href="#" class="hover:underline hover:text-orange-400">Kilot</a>
                 <a href="#" class="hover:underline hover:text-orange-400">Sütyen</a>
-
             </div>
 
         </div>
